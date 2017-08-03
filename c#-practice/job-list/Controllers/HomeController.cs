@@ -24,5 +24,11 @@ namespace Job.Controllers
       Jobs newJob = new Jobs(yourName, companyName, jobTitle, startDate, endDate, jobDescription);
       return View(newJob);
     }
+
+    public ActionResult ShowAll()
+    {
+      List<Jobs> jobsShow = Jobs.GetAllJobs();
+      return View(jobsShow);
+    }
   }
 }

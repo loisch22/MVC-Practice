@@ -10,7 +10,7 @@ namespace Job.Models
     private string _startDate;
     private string _endDate;
     private string _jobDescription;
-    private List<Jobs> jobList = new List<Jobs> ();
+    private static List<Jobs> jobList = new List<Jobs> ();
 
     public Jobs(string yourName, string companyName, string jobTitle, string startDate, string endDate, string jobDescription)
     {
@@ -72,7 +72,8 @@ namespace Job.Models
     {
       _jobDescription = jobDescription;
     }
-    public List<Jobs> GetAllJobs()
+
+    public static List<Jobs> GetAllJobs()
     {
       return jobList;
     }

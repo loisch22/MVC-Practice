@@ -2,7 +2,7 @@
   Layout = "_Layout";
 }
 
-<h1>@Model.GetYourName()'s Work Experience</h1>
+<h1>@Model.GetYourName()'s Recently Added Work Experience</h1>
 
 <p><strong>Company Name:</strong> @Model.GetCompanyName()</p>
 
@@ -15,3 +15,5 @@
 <p><strong>Job Description:</strong> @Model.GetJobDescription()</p>
 
 <a href="/"><button class="btn btn-default">Add Work Experience</button></a>
+
+<a href="/Home/ShowAll"><button class="btn btn-default">View All Work Experience</button></a>
