@@ -4,10 +4,31 @@
 
 <h1>Hello Everyone</h1>
 
-<form action="/Home/Resume" method="post">
+<form action="/resume" method="post">
   <div class="form-group">
     <label for="your-name">Name:</label>
     <input type="text" name="your-name" class="form-control">
   </div>
-  <a href="/Home/Resume"><button type="submit" class="btn btn-primary">Enter</button></a>
+  <div class="form-group">
+    <label for="company">Company Name:</label>
+    <input type="text" name="company" class="form-control">
+  </div>
+  <div class="form-group">
+    <label for="job-title">Job Title:</label>
+    <input type="text" name="job-title" class="form-control">
+  </div>
+  <div class="form-group">
+    <label for="start">Start Date:</label>
+    <input type="date" name="start" class="form-control">
+  </div>
+  <div class="form-group">
+    <label for="end">End Date:</label>
+    <input type="date" name="end" class="form-control">
+  </div>
+  <div class="form-group">
+    <label for="description">Job Descriptions:</label>
+    <input type="text" name="description" class="form-control">
+  </div>
+
+  <a href="/resume"><button type="submit" class="btn btn-primary">Enter</button></a>
 </form>

@@ -12,15 +12,14 @@ namespace Job.Models
     private string _jobDescription;
     private List<Jobs> jobList = new List<Jobs> ();
 
-
-    public Jobs(string yourName)
+    public Jobs(string yourName, string companyName, string jobTitle, string startDate, string endDate, string jobDescription)
     {
       _yourName = yourName;
-      // _companyName = companyName;
-      // _jobTitle = jobTitle;
-      // _startDate = startDate;
-      // _endDate = endDate;
-      // _jobDescription = jobDescription;
+      _companyName = companyName;
+      _jobTitle = jobTitle;
+      _startDate = startDate;
+      _endDate = endDate;
+      _jobDescription = jobDescription;
       jobList.Add(this);
     }
 
@@ -80,6 +79,3 @@ namespace Job.Models
 
   }
 }
-
-
-//, string companyName, string jobTitle, string startDate, string endDate, string jobDescription
