@@ -1,0 +1,8 @@
+/Users/loischoi/Desktop/aspnetapp/bin/Debug/netcoreapp1.1/aspnetapp.deps.json
+/Users/loischoi/Desktop/aspnetapp/bin/Debug/netcoreapp1.1/aspnetapp.runtimeconfig.json
+/Users/loischoi/Desktop/aspnetapp/bin/Debug/netcoreapp1.1/aspnetapp.runtimeconfig.dev.json
+/Users/loischoi/Desktop/aspnetapp/bin/Debug/netcoreapp1.1/aspnetapp.dll
+/Users/loischoi/Desktop/aspnetapp/bin/Debug/netcoreapp1.1/aspnetapp.pdb
+/Users/loischoi/Desktop/aspnetapp/obj/Debug/netcoreapp1.1/aspnetapp.AssemblyInfo.cs
+/Users/loischoi/Desktop/aspnetapp/obj/Debug/netcoreapp1.1/aspnetapp.dll
+/Users/loischoi/Desktop/aspnetapp/obj/Debug/netcoreapp1.1/aspnetapp.pdb
